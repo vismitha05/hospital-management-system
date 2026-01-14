@@ -21,7 +21,7 @@ const seedDoctors = async () => {
                 firstName: "Ramesh",
                 specialization: "Neurologist",
                 experience: 8,
-                avilability: ["Tuesday", "Thursday", "Saturday"]
+                availability: ["Tuesday", "Thursday", "Saturday"]
             },
             {
                 email: "dr.neha@test.com",
@@ -29,7 +29,7 @@ const seedDoctors = async () => {
                 firstName: "Neha",
                 specialization: "Pediatrician",
                 experience: 5,
-                avilability: ["Monday", "Wednesday", "Friday"]
+                availability: ["Monday", "Wednesday", "Friday"]
             },
             {
                 email: "dr.gaana@test.com",
@@ -37,7 +37,7 @@ const seedDoctors = async () => {
                 firstName: "Gaana",
                 specialization: "Dermatologist",
                 experience: 7,
-                avilability: ["Monday", "Wednesday", "Friday"]
+                availability: ["Monday", "Wednesday", "Friday"]
             },
             {
                 email: "dr.vinaya@test.com",
@@ -45,7 +45,7 @@ const seedDoctors = async () => {
                 firstName: "Vinaya",
                 specialization: "Orthopedic",
                 experience: 6,
-                avilability: ["Tuesday", "Thursday", "Saturday"]
+                availability: ["Tuesday", "Thursday", "Saturday"]
             },
             {
                 email: "dr.hithesh@test.com",
@@ -53,7 +53,7 @@ const seedDoctors = async () => {
                 firstName: "Hithesh",
                 specialization: "Oncologist",
                 experience: 9,
-                avilability: ["Monday", "Wednesday", "Friday"]
+                availability: ["Monday", "Wednesday", "Friday"]
             }
         ];
 
@@ -81,4 +81,5 @@ mongoose.connect('mongodb://127.0.0.1:27017/hospital-management')
   .catch(err => {
     console.error(' MongoDB failed:', err.message);
     process.exit(1);
+
   });

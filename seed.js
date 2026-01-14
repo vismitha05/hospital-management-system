@@ -58,10 +58,10 @@ const seedDoctors = async () => {
         ];
 
         for(let doc of doctors){
-            const user = new User({email: doc.email, password:doc.password, role:"doctor"});
+            const user = new User({email: doc.email, password:doc.password, role:"doctor", firstName:doc.firstName});
             await user.save();
 
-            console.log(`doctor created: ${doc.firstName} ${doc.lastName}`);
+            console.log(`doctor created: ${doc.firstName}`);
         }
         console.log("doctors seeded");
         process.exit(0);
@@ -83,3 +83,4 @@ mongoose.connect('mongodb://127.0.0.1:27017/hospital-management')
     process.exit(1);
 
   });
+

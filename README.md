@@ -8,7 +8,7 @@ Doctors also have separate login access to view their appointments.
 Once logged in, patients can see a list of specialist doctors and book appointments based on availability.
 
 # Features
-Patient registration with profile information (name, email, age, gender, address, etc.)
+Patient registration with profile information (name, email, age, gender, address)
 Secure login for patients and doctors using JWT authentication
 Doctor seeding for quick setup (6 specialist doctors by default)
 Patient dashboard showing available doctors and their details

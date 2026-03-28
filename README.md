@@ -15,7 +15,7 @@ Patient dashboard showing available doctors and their details
 Appointment booking modal to select date, time, and reason
 Responsive design with a clean, modern interface built using React and Vite
 
-# Tech Stack
+# Tech Stack used
 
 Frontend: React, Vite, Tailwind CSS  
 Backend: Node.js, Express.js  
